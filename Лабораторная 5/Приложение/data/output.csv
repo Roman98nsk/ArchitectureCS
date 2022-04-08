@@ -1,0 +1,7 @@
+multiplication type;launch count;matrix size;block size;threadsCnt;timer;average time;absError;relError;
+POSIX_Threads;5;9000;64;1;clock_gettime();1.022443e+04;1.245314e+03;1.516765e+04%;
+OpenMP;5;9000;64;1;clock_gettime();8.227775e+03;1.174659e+03;1.677032e+04%;
+POSIX_Threads;5;9000;64;2;clock_gettime();5.540862e+03;1.304314e+03;3.070341e+04%;
+OpenMP;5;9000;64;2;clock_gettime();3.338448e+03;1.409641e+01;5.952128e+00%;
+POSIX_Threads;5;9000;64;3;clock_gettime();2.905713e+03;2.385432e+01;1.958310e+01%;
+OpenMP;5;9000;64;3;clock_gettime();4.718296e+03;2.461833e+03;1.284493e+05%;

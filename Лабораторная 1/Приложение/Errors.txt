@@ -1,0 +1,1 @@
+cat: sys/class/net/wlo1/speed: Недопустимый аргумент
